@@ -1,24 +1,57 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# BlogAppOnRails
 
-Things you may want to cover:
+> A blog made by Ruby on Rails
+This is an educational project for learning Ruby on Rails.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby
+- Rails
+- Postgresql
 
-* Configuration
+## Getting Started
 
-* Database creation
+To run this project, take a copy of the code and follow the instruction below.
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+You need Ruby v3+, Rails v7+ and Postgresql installed on your machine.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Setup
 
-* Deployment instructions
+- Clone the GitHub Repository
+- Go to the Project Directory
+- Run `bundle install`
 
-* ...
+### Usage
+
+- Run `rails server` to run the app.
+
+## Authors
+
+
+👤 **Tobin Chilongo**
+
+- GitHub: [@Tobinchilongo](https://github.com/Tobinchilongo)
+- Twitter: [@Tobin_Official](https://twitter.com/Tobin_Official)
+- LinkedIn: [@Tobinchilongo](https://www.linkedin.com/in/tobin-chilongo-a6736415a/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+
+## 📝 License
+
+This project is [AGPL v3+](./LICENSE) licensed.
