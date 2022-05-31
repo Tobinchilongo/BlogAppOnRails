@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# BlogOnRails
+# BlogAppOnRails
 
 > A blog made by Ruby on Rails
 This is an educational project for learning Ruby on Rails.
