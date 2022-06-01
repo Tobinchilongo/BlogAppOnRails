@@ -15,4 +15,19 @@ RSpec.describe 'Posts', type: :request do
       expect(response.body).to include('Posts of a given user')
     end
   end
+
+  describe 'GET /show' do
+    before(:example) { get '/users/1/posts/2' }
+    it 'respond with 200 code' do
+      expect(response).to have_http_status(:ok)
+    end
+
+    it 'renders show view' do
+      expect(response).to render_template(:show)
+    end
+
+    it 'renders correct content' do
+      expect(response.body).to include('Specific post of a user')
+    end
+  end
 end
