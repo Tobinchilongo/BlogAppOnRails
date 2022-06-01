@@ -12,7 +12,7 @@ RSpec.describe 'Posts', type: :request do
     end
 
     it 'renders correct content' do
-      expect(response.body).to include('Posts of a given user')
+      expect(response.body).to include('Here is a list of posts for a given user')
     end
   end
 
@@ -27,7 +27,7 @@ RSpec.describe 'Posts', type: :request do
     end
 
     it 'renders correct content' do
-      expect(response.body).to include('Specific post of a user')
+      expect(response.body).to include('Details of a post for a given user')
     end
   end
 end
