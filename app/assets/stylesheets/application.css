@@ -67,6 +67,10 @@ a {
   text-align: left;
 }
 
+.my-1 {
+  margin: 10px 0;
+}
+
 .right {
   text-align: right;
 }
@@ -78,13 +82,17 @@ a {
 
 .card {
   padding: 10px;
-  margin: 10px 0;
+  margin: 20px 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
 .flex {
   display: flex;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .hover {
