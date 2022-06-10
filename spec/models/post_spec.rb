@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe Post, type: :model do
   describe 'For the Post model' do
     before(:each) do
-      @user = User.new(name: 'Tom', bio: 'Teacher from Mexico', post_counter: 0)
+      @user = User.new(name: 'Tom', photo: 'image.png', bio: 'Teacher from Mexico', post_counter: 0)
       @post = Post.new(author: @user, title: 'Test', text: 'testing', likes_counter: 6, comments_counter: 1)
     end
 
