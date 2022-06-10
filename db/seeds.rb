@@ -10,6 +10,7 @@ User.create(name: 'Lilly', photo: 'https://www.istockphoto.com/vector/businessma
 User.create(name: 'Tobin', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'Teacher.')
 User.create(name: 'Mwape', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'Teacher from Zambia.')
 
+
 Post.create(author_id: 1, title: 'Hello', text: 'This is my first post')
 Post.create(author_id: 2, title: 'Hello World', text: 'This is my second post')
 Post.create(author_id: 1, title: 'Hello', text: 'This is my Third post')
