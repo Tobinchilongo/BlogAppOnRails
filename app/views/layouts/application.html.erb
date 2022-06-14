@@ -14,5 +14,12 @@
       <p class="card bg-green"><%= msg %></p>
     <% end -%>
     <%= yield %>
+    <div id="user_nav">
+    <% if user_signed_in? %>
+        Welcome!! Signed in as <%= current_user.name %>.
+        <%= button_to "Sign out", destroy_user_session_path, :method => :delete %>
+    <% end %>
+</div>
+
   </body>
 </html>
