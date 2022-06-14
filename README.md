@@ -29,7 +29,7 @@ You need Ruby v3+, Rails v7+ and Postgresql installed on your machine.
 
 - Run `rails server` to run the app.
 
-## Authors
+## Authors 1
 
 
 👤 **Tobin Chilongo**
@@ -37,6 +37,14 @@ You need Ruby v3+, Rails v7+ and Postgresql installed on your machine.
 - GitHub: [@Tobinchilongo](https://github.com/Tobinchilongo)
 - Twitter: [@Tobin_Official](https://twitter.com/Tobin_Official)
 - LinkedIn: [@Tobinchilongo](https://www.linkedin.com/in/tobin-chilongo-a6736415a/)
+
+## Authors 2
+
+👤 **Roshan Bajgain**
+
+- GitHub: [@roshan-bajgain](https://github.com/roshan-bajgain)
+- Twitter: [@RoshanBajgain10](https://twitter.com/RoshanBajgain10)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/roshan-bazgain/)
 
 ## 🤝 Contributing
 
