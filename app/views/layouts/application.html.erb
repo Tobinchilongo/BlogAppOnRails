@@ -14,8 +14,10 @@
     <% flash.each do |name, msg| -%>
       <p class="bg-green p-1"><%= msg %></p>
     <% end -%>
+    <div class="background-image">
     <div class="container center">
       <%= yield %>
+    </div>
     </div>
 
   </body>
