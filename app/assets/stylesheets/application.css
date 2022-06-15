@@ -30,11 +30,11 @@
   --light: #f1ecea;
   --dark: #00262b;
   --white: #fff; 
-  --lato-font: 'Lato', sans-serif;
+  --lato-font: 'Tangerine', serif;
 }
 
 body {
-  font-family: var(--lato-font);
+  font-family: var(--tangerine-font);
 }
 
 ul {
