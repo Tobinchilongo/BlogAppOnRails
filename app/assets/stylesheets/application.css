@@ -204,7 +204,7 @@ nav {
   text-decoration: none;
   color: #fff;
   border: 1px solid #fff;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .nav-link button {
@@ -213,7 +213,7 @@ nav {
   text-decoration: none;
   color: #fff;
   border: 1px solid #fff;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .logo a {
