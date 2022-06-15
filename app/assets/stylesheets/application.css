@@ -150,6 +150,20 @@ a {
   cursor: pointer;
 }
 
+.btn-del {
+  border: 0;
+  border-radius: 0.25rem;
+  background: #df5a5a;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  cursor: pointer;
+}
+
 .btn:hover {
   background: #272a31;
   color: #f1ecea;
