@@ -21,9 +21,60 @@ You need Ruby v3+, Rails v7+ and Postgresql installed on your machine.
 
 ### Setup
 
-- Clone the GitHub Repository
-- Go to the Project Directory
-- Run `bundle install`
+`Clone the project`
+
+Install gems with:
+
+```
+bundle install
+```
+
+Setup database with:
+
+```
+rails db:create
+rails db:migrate
+```
+
+### Usage
+
+Start server with:
+
+```
+rails server
+```
+
+Visit http://localhost:3000/ in your browser.
+
+### Run tests
+
+Install npm with:
+
+Install rspec with:
+
+```
+bundle install
+```
+
+and
+
+```
+rails generate rspec:install
+```
+
+run the test with:
+
+```
+rspec spec
+```
+
+### Open API documentation
+
+```
+rails server
+```
+
+Visit http://localhost:3000/api-docs in your browser.
 
 ### Usage
 
