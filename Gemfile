@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.1.2'
+ruby '3.1.1'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.3'
@@ -35,7 +35,7 @@ gem 'jbuilder'
 # gem "kredis"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
-# gem "bcrypt", "~> 3.1.7"
+gem 'bcrypt', '~> 3.1.7'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data'
@@ -77,4 +77,8 @@ group :test do
 end
 gem 'cancancan', '~> 1.9'
 gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'devise-jwt'
+gem 'dotenv-rails', groups: %i[development test]
+gem 'jwt'
+gem 'rack-cors'
 gem 'rubocop', '~> 1.30'
