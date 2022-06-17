@@ -7,8 +7,6 @@ RSpec.describe Post, type: :model do
       @post = Post.new(author: @user, title: 'Test', text: 'testing', likes_counter: 6, comments_counter: 1)
     end
 
-    before { @post.save }
-
     it 'if there is title' do
       @post.title = true
       expect(@post).to be_valid
