@@ -8,13 +8,13 @@ development:
   <<: *default
   database: blog_development
   username: postgres
-  password: 0047196
+  password: suwimubanga1
 
 test:
   <<: *default
   database: blog_development
   username: postgres
-  password: 0047196
+  password: suwimubanga1
 
 production:
   <<: *default
