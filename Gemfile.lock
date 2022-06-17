@@ -314,6 +314,7 @@ DEPENDENCIES
   ffi
   importmap-rails
   jbuilder
+  jwt
   pg
   puma (~> 5.0)
   rack-cors
