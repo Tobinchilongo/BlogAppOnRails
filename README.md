@@ -2,8 +2,7 @@
 
 # BlogAppOnRails
 
-> A blog made by Ruby on Rails
-This is an educational project for learning Ruby on Rails.
+> The Blog app is a classic example of a blog website. It's a functional website that shows the list of posts and empower readers to interact with them by adding comments and liking post.
 
 ## Built With
 
